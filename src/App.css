@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+@import url(./assets/css/root.css);
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.opacity_70{
+  opacity: 70%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Acumin-RPro';
+  src: url(./assets/fonts/Acumin-RPro.otf);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'TitlingGothicFBCond';
+  src: url(./assets/fonts/TitlingGothicFBCond-Bold.ttf);
 }
-
-.App-link {
-  color: #61dafb;
+.Font_Acumin_Pro{
+  font-family: "Acumin-RPro", sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Font_TitlingGothicFBCond{
+  font-family: "TitlingGothicFBCond", sans-serif;
+}
+.max_width_1140{
+  max-width: 1140px;
+}
+.max_width_1230{
+  max-width: 1230px;
+}
+.hero_bg{
+  background-image: url(./assets/images/webp/herobg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.orangeSvg1{
+  height: 24px;
+  width: 24px;
+  background: #FA6A00;
+  border-radius: 100px;
+}
+.nav_Box{
+  background: white;
+  border-radius: 16px;
+  padding: 4px;
+}
+.nav_logo{
+  max-width: 75px;
+  height: 63px;
+}
+.common_btn{
+  padding: 0 20px;
+  border-radius: 84px;
+  min-height: 50px;
+  box-shadow: 0px 0px 26.2px 0px #FA6A0099;
+  border: 1px solid var(--orange);
+}
+.nav_links{
+  transition: all 400ms linear;
+}
+.nav_links:hover{
+  color: var(--orange);
+}
+.transparent_div{
+  max-width: 544px;
+  backdrop-filter: blur(10px);
+  min-height: 71px;
+}
+.future_bg{
+  background-image: url(./assets/images/webp/future0fcar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*================ gap =========== */
+.gap_10{
+  gap: 10px;
+}
+.gap_12{
+  gap: 12px;
+}
+.gap_28{
+  gap: 28px;
+}
+/*=============== margin and paddings=========== */
+.py_14{
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.px_12{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.heading_padding_top{
+  padding-top: 85.5px;
+}
+.future_padding_top{
+  padding-top: 82px;
+}
+.margin_top_40{
+  margin-top: 40px;
+}
+/*=============== max-widths================ */
+.max_width_730{
+  max-width: 730px;
 }
