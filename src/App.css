@@ -14,21 +14,23 @@
   src: url(./assets/fonts/Acumin-RPro.otf);
 }
 @font-face {
+  font-family: 'Acumin-BdPro';
+  src: url(./assets/fonts/Acumin-BdPro.otf);
+}
+@font-face {
   font-family: 'TitlingGothicFBCond';
   src: url(./assets/fonts/TitlingGothicFBCond-Bold.ttf);
 }
 .Font_Acumin_Pro{
   font-family: "Acumin-RPro", sans-serif;
 }
+.Font_Acumin_Pro_bold{
+  font-family: "Acumin-BdPro", sans-serif;
+}
 .Font_TitlingGothicFBCond{
   font-family: "TitlingGothicFBCond", sans-serif;
 }
-.max_width_1140{
-  max-width: 1140px;
-}
-.max_width_1230{
-  max-width: 1230px;
-}
+
 .hero_bg{
   background-image: url(./assets/images/webp/herobg.png);
   background-size: cover;
@@ -71,12 +73,20 @@
 .future_bg{
   background-image: url(./assets/images/webp/future0fcar.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
+}
+
+.car_process_img{
+  max-width: 558px;
+  min-height: 584px;
 }
 /*================ gap =========== */
 .gap_10{
   gap: 10px;
+}
+.gap_20{
+  gap: 20px;
 }
 .gap_12{
   gap: 12px;
@@ -99,10 +109,22 @@
 .future_padding_top{
   padding-top: 82px;
 }
+.future_padding_bottom{
+  padding-bottom: 80px;
+}
 .margin_top_40{
   margin-top: 40px;
+}
+.mt_13{
+  margin-top: 13px;
 }
 /*=============== max-widths================ */
 .max_width_730{
   max-width: 730px;
+}
+.max_width_1140{
+  max-width: 1140px;
+}
+.max_width_1230{
+  max-width: 1230px;
 }
