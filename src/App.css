@@ -81,6 +81,32 @@
   max-width: 558px;
   min-height: 584px;
 }
+.IceBlaster{
+  right: 0;
+  max-width: 728px;
+  width: 50%;
+  top: 19.5%;
+}
+.IceWork{
+  max-width: 641px;
+  width: 50%;
+  top: 44.5%;
+}
+.small_img{
+  max-width: 70px;
+}
+.play_btn{
+  top: 50%;
+  left: 50%;
+  transform: translate( -50% , -50%);
+}
+.service_bg{
+  background-image: url(./assets/images/webp/ServiceBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /*================ gap =========== */
 .gap_10{
   gap: 10px;
@@ -112,19 +138,58 @@
 .future_padding_bottom{
   padding-bottom: 80px;
 }
+.ice_blasting_paddings{
+  padding-top: 117px;
+  padding-bottom: 118px;
+}
+.blasting_work_paddings{
+  padding-top: 153px;
+  padding-bottom: 153px;
+}
+.effective_padding_bottom{
+  padding-bottom: 121px;
+}
 .margin_top_40{
   margin-top: 40px;
 }
 .mt_13{
   margin-top: 13px;
 }
+.mt_20{
+  margin-top: 20px;
+}
+.pt_28{
+  padding-top: 28px;
+}
+.pb_34{
+  padding-bottom: 34px;
+}
+.padding_top_40{
+  padding-top: 40px;
+}
+.section_margin_top{
+  margin-top: -100px;
+  z-index: 12 !important;
+}
+
 /*=============== max-widths================ */
 .max_width_730{
   max-width: 730px;
 }
-.max_width_1140{
-  max-width: 1140px;
+.max_width_592{
+  max-width: 592px;
 }
 .max_width_1230{
   max-width: 1230px;
+}
+
+
+
+
+
+
+@media (min-width:1200px) and (max-width:1440px) {
+  .max_width_1140{
+    max-width: 1140px;
+  }
 }

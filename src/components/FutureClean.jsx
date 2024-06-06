@@ -42,7 +42,7 @@ const FutureClean = () => {
                 <img src={CarWash} alt="carwash" className=' w-100 rounded-4 car_process_img' />
             </div>
         </div>
-        <div className=" d-flex flex-column gap_20 align-items-center justify-content-center">
+        <div className=" d-flex flex-column gap_20 align-items-center justify-content-center z-3">
             <p className=' mb-0 font_size_sm line_height_xlg fw-bold Font_Acumin_Pro_bold color_black'>Like What You See? Get an Instant Quote</p>
     <button className=' common_btn bg_orange text-white Font_Acumin_Pro fw-bold text-capitalize font_size_sm line_height_sm d-flex align-items-center justify-content-center'>Get Instant Quote</button>
 
