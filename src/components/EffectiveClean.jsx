@@ -10,7 +10,7 @@ const EffectiveClean = () => {
     <div className=" container max_width_1140 effective_padding_bottom ">
         <h2 className=' mb-0 line_height_7xl mt_13 font_size_2xl Font_TitlingGothicFBCond fw-bold color_black text-center'>Why Choose Dry Ice Blasting for Your Car?</h2>
         <div className=" row align-items-center pt-5">
-            <div className="col-6">
+            <div className="col-12 col-md-6">
                 <div className=" d-flex align-items-center gap_12">
                     <img src={EffectiveCleanImg} alt="EffectiveCleanImg" className=' w-100 small_img' />
                     <div className=" d-flex flex-column gap-1">
@@ -40,8 +40,8 @@ const EffectiveClean = () => {
                     </div>
                 </div>
             </div>
-            <div className=" col-6">
-                <img src={Img} alt="img" />
+            <div className=" col-12 col-md-6 mt-5 mt-md-0">
+                <img src={Img} alt="img" className=' w-100' />
             </div>
         </div>
     </div>

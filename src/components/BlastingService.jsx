@@ -2,7 +2,7 @@ import React from 'react'
 import ServiceCloudTop from '../assets/images/webp/ServiceCloudTop.png'
 import ServiceCloudBottom from '../assets/images/webp/ServiceCloudBottom.png'
 import BehindCarWashing from '../assets/images/webp/BehindCarWashing.png'
-import PlayButton from '../assets/images/svg/PlayButton.svg'
+import {PlayButton} from '../common/Icon'
 const BlastingService = () => {
   return (
    <section className='service_bg'>
@@ -18,7 +18,7 @@ const BlastingService = () => {
 </div>
 <div className=" mx-auto position-relative">
     <div className=" position-absolute play_btn">
-        <img src={PlayButton} alt="PlayButton" />
+       <PlayButton/>
     </div>
     <img src={BehindCarWashing} alt="BehindCarWashing" className=' w-100' />
 </div>
