@@ -30,7 +30,7 @@ const Footer = () => {
                 <div className="row padding_top_57 pb-5">
                     <div className="col-lg-5 col-12">
                         <img src={Logo} alt="logo" className=' footer_logo' />
-                        <h6 className='mb-0  text-white  opacity_70  Font_Acumin_Pro  fw-normal font_size_sm line_height_lg pt-10 max_width_350'>IceBlastPro is Oxfordshire's Dry Ice Car Cleaning specialists. Removing dirt and grime in hard to reach areas with a non-abrasive Dry Ice Blasting technique that requires no chemicals and leaves no mess.</h6>
+                        <h6 className='mb-0  text-white  opacity_70  Font_Acumin_Pro  fw-normal font_size_sm line_height_lg pt_10 max_width_350'>IceBlastPro is Oxfordshire's Dry Ice Car Cleaning specialists. Removing dirt and grime in hard to reach areas with a non-abrasive Dry Ice Blasting technique that requires no chemicals and leaves no mess.</h6>
                     </div>
                     <div className="col-lg-2 col-sm-4 col-6 pt-4 pt-lg-0">
                         <ul className='m-0 p-0 d-flex flex-column gap_12'>

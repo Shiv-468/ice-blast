@@ -9,6 +9,9 @@
 .opacity_70{
   opacity: 70%;
 }
+.opacity_80{
+  opacity: 80%;
+}
 @font-face {
   font-family: 'Acumin-RPro';
   src: url(./assets/fonts/Acumin-RPro.otf);
@@ -108,18 +111,56 @@
   background-size: cover;
   background-position: center;
 }
-.slick-slide {
-  background: #000;
-  transition: transform 0.5s ease;
+.news_Card{
+  border-radius: 16px;
+  padding: 10px 10px 24px;
+  box-shadow: 0px 0px 12px 0px #0000001A;
+}
+/* src/Accordion.css */
+.accordion {
+  overflow: hidden;
+  margin: 0 auto;
 }
 
-.sliderimg{
-  display: flex !important;
-  min-height: 382px;
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 14px;
 }
+
+.accordion-title {
+  cursor: pointer;
+  overflow: hidden;
+
+  display: flex;
+  border-radius: 14px;
+  align-items: start;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.accordion-content {
+  display: none;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+.accordion-item.active .accordion-title .accordion-heading {
+  max-width: 358px;
+}
+
+.quote_card{
+  padding: 37px;
+  border: 6px solid #FB842CB2;
+  box-shadow: 0px 0px 26.2px 0px #FA6A00CC;
+  border-radius: 14px;
+}
+
 .footer_logo{
   max-width: 85.04px;
 }
+
 /*================ gap =========== */
 .gap_10{
   gap: 10px;
@@ -171,7 +212,7 @@
 .mt_20{
   margin-top: 20px;
 }
-.pt-10{
+.pt_10{
   padding-top: 10px;
 }
 .pt_18{
@@ -208,18 +249,27 @@
 .max_width_350{
   max-width: 350px;
 }
+.max_width_300{
+  max-width: 300px;
+}
 
 
 
-@media (min-width:768px) {
+@media (min-width:767.9px) {
   .car_process_img{
     max-width: 558px;
     min-height: 584px;
   }
 }
 
-@media (max-width:768px) {
-
+@media (max-width:767.9px) {
+  .news_Card{
+     max-width: 364px;
+  }
+  .news_cardImg{
+    max-width: 344px;
+    min-height: 249px;
+  }
   .mobile_view {
     display: flex;
     align-items: center !important;
@@ -273,10 +323,18 @@
   }
 
 }
-@media (min-width:992px) {
+@media (min-width:991.9px) {
   .section_margin_top{
     margin-top: -100px;
     z-index: 12 !important;
+  }
+  .accordion-content {
+    max-width: 550px;
+  }
+}
+@media (max-width:991.9px) {
+  .accordion-content{
+    padding:0 32px 32px;
   }
 }
 @media (min-width:1200px) and (max-width:1440px) {

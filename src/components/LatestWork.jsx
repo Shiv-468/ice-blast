@@ -6,9 +6,9 @@ import React from 'react';
 const LatestWork = () => { 
    
   return (
-   <section>
+   <section className=' bg_orange'>
     <div className=" container max_width_1140">
-   
+      <h2 className=' mb-0 font_size_2xl line_height_7xl Font_TitlingGothicFBCond fw-bold text-center text-white'>See Our Latest Work</h2>
     </div>
    </section>
   )

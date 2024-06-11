@@ -28,11 +28,11 @@
 
     /* / COLOR */
     --gray-transparent: #E3FAFF0D;
-    --dark-blue:#101A2E;
+    --black:#10192E;
     --gray-light: #BBBEC3;
     --gray: #636363;
     --orange: #FA6A00;
-    --black:#101A2E;
+    --dark-blue:#101A2E;
 }
 .bg_dark_blue{
     background: var(--dark-blue);
@@ -43,8 +43,8 @@
 .bg_orange{
     background: var(--orange);
 }
-.color_black{
-    color: var(--black);
+.color_dark_blue{
+    color: var(--dark-blue);
 }
 .color_light_gray{
     color: var(--gray-light);

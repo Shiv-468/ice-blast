@@ -7,6 +7,7 @@ import BlastingService from './components/BlastingService';
 import TalkNumbers from './components/TalkNumbers';
 import LatestWork from './components/LatestWork';
 import Footer from './components/Footer';
+import { News } from './components/News';
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <BlastingService />
       <TalkNumbers />
       <LatestWork />
+      <News/>
       <Footer/>
     </>
   );
