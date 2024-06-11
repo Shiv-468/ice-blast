@@ -123,14 +123,13 @@
 }
 
 .accordion-item {
-  border: 1px solid #ddd;
+  border: 1px solid #101A2E1A;
   border-radius: 14px;
 }
 
 .accordion-title {
   cursor: pointer;
   overflow: hidden;
-
   display: flex;
   border-radius: 14px;
   align-items: start;
@@ -149,7 +148,44 @@
 .accordion-item.active .accordion-title .accordion-heading {
   max-width: 358px;
 }
+.accordion2 {
+  overflow: hidden;
+  margin: 0 auto;
+}
 
+.accordion-item2 {
+  border-radius: 14px;
+  padding: 24px 30px;
+  background: var(--gray2);
+  border: 1px solid #101A2E33
+}
+
+.accordion-title2 {
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  border-radius: 14px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.accordion-content2 {
+  display: none;
+  max-width: 1003px;
+}
+.accordion-item2.active{
+  background: var(--dark-blue);
+}
+.accordion-item2.active .accordion-heading2{
+  color: white !important;
+}
+.accordion-item2.active .accordion-content2{
+  color: white !important;
+  opacity: 80%;
+}
+.accordion-item2.active .accordion-content2 {
+  display: block !important;
+}
 .quote_card{
   padding: 37px;
   border: 6px solid #FB842CB2;
@@ -166,7 +202,24 @@
 .footer_logo{
   max-width: 85.04px;
 }
-
+.contact_card{
+  padding: 16px 30px 38px;
+  background: #F3F3F4;
+  border: 1px solid #101A2E33;
+  border-radius: 14px;
+}
+textarea{
+  width: 100%;
+  border: 1px solid #101A2E33;
+  outline: none;
+  min-height: 152px;
+}
+.bring_backBG{
+  background-image: url(./assets/images/webp/BringBackBG.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /*================ gap =========== */
 .gap_10{
   gap: 10px;
@@ -224,6 +277,9 @@
 .pt_18{
   padding-top: 18px;
 }
+.mb_65{
+  margin-bottom: 65px;
+}
 .pt_28{
   padding-top: 28px;
 }
@@ -239,12 +295,19 @@
 .padding_top_57{
   padding-top: 57px;
 }
+.bring_back_padding{
+  padding-top: 335px;
+  padding-bottom: 313px;
+}
 /*=============== max-widths================ */
 .max_width_730{
   max-width: 730px;
 }
 .max_width_760{
   max-width: 760px;
+}
+.max_width_960{
+  max-width: 960px;
 }
 .max_width_592{
   max-width: 592px;

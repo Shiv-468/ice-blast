@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import { News } from './components/News';
 import MeetTheTeam from './components/MeetTheTeam';
 import Faq from './components/Faq';
+import BringBack from './components/BringBack';
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
       <LatestWork />
       <MeetTheTeam/>
       <Faq/>
+      <BringBack/>
       <News/>
       <Footer/>
     </>

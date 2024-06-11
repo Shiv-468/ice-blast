@@ -31,11 +31,16 @@
     --black:#10192E;
     --gray-light: #BBBEC3;
     --gray: #636363;
+    --gray2: #F3F3F4;
+
     --orange: #FA6A00;
     --dark-blue:#101A2E;
 }
 .bg_dark_blue{
     background: var(--dark-blue);
+}
+.bg_gray3{
+    background: var(--gray2);
 }
 .bg_gray2{
     background: var(--gray-transparent);
