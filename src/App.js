@@ -8,6 +8,8 @@ import TalkNumbers from './components/TalkNumbers';
 import LatestWork from './components/LatestWork';
 import Footer from './components/Footer';
 import { News } from './components/News';
+import MeetTheTeam from './components/MeetTheTeam';
+import Faq from './components/Faq';
 function App() {
   return (
     <>
@@ -18,6 +20,8 @@ function App() {
       <BlastingService />
       <TalkNumbers />
       <LatestWork />
+      <MeetTheTeam/>
+      <Faq/>
       <News/>
       <Footer/>
     </>
