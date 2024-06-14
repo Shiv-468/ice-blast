@@ -11,6 +11,7 @@ import { News } from './components/News';
 import MeetTheTeam from './components/MeetTheTeam';
 import Faq from './components/Faq';
 import BringBack from './components/BringBack';
+import Mailing from './components/Mailing';
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
       <Faq/>
       <BringBack/>
       <News/>
+      <Mailing/>
       <Footer/>
     </>
   );

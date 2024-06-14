@@ -4,27 +4,27 @@
     --font-size-sm: 16px;
     --font-size-xmd: 18px;
     --font-size-md: 20px;
-    --font-size-xlg: 24px;
-    --font-size-lg: 28px;
+    --font-size-xlg: 18px;
+    --font-size-lg: 24px;
     --font-size-xl: 32px;
-    --font-size-2xl: 48px;
-    --font-size-3xl: 96px;
+    --font-size-2xl: 34px;
+    --font-size-3xl: 47px;
 
     /* / line-height  */
     --line-height-xsm: 14px;
     --line-height-sm: 19px;
     --line-height-xmd: 21px;
     --line-height-md: 22px;
-    --line-height-xlg: 24px;
+    --line-height-xlg: 20px;
     --line-height-lg: 25px;
     --line-height-xl: 27px;
-    --line-height-2xl: 30px;
-    --line-height-3xl: 33px;
+    --line-height-2xl: 26px;
+    --line-height-3xl: 20px;
     --line-height-4xl: 36px;
-    --line-height-5xl: 39px;
+    --line-height-5xl: 28px;
     --line-height-6xl: 44px;
-    --line-height-7xl: 57px;
-    --line-height-8xl: 115px;
+    --line-height-7xl: 42px;
+    --line-height-8xl: 56px;
 
     /* / COLOR */
     --gray-transparent: #E3FAFF0D;
@@ -139,4 +139,35 @@
 }
 .line_height_8xl{
     line-height: var(--line-height-8xl);
+}
+
+@media (min-width:575.9px) {
+    :root {
+        /* Font-size   */
+        --font-size-xsm: 14px;
+        --font-size-sm: 16px;
+        --font-size-xmd: 18px;
+        --font-size-md: 20px;
+        --font-size-xlg: 24px;
+        --font-size-lg: 28px;
+        --font-size-xl: 32px;
+        --font-size-2xl: 48px;
+        --font-size-3xl: 96px;
+    
+        /* / line-height  */
+        --line-height-xsm: 14px;
+        --line-height-sm: 19px;
+        --line-height-xmd: 21px;
+        --line-height-md: 22px;
+        --line-height-xlg: 24px;
+        --line-height-lg: 25px;
+        --line-height-xl: 27px;
+        --line-height-2xl: 30px;
+        --line-height-3xl: 33px;
+        --line-height-4xl: 36px;
+        --line-height-5xl: 39px;
+        --line-height-6xl: 44px;
+        --line-height-7xl: 57px;
+        --line-height-8xl: 115px;
+    }
 }

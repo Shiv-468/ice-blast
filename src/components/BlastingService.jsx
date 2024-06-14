@@ -5,7 +5,7 @@ import BehindCarWashing from '../assets/images/webp/BehindCarWashing.png'
 import {PlayButton} from '../common/Icon'
 const BlastingService = () => {
   return (
-   <section className='service_bg'>
+   <section className='service_bg' id='services'>
     <div className=" d-flex">
         <img src={ServiceCloudTop} alt="ServiceCloudTop" className=' w-100' />
     </div>

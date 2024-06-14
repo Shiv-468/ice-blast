@@ -5,7 +5,7 @@ import IceBlaster from '../assets/images/webp/ice_blaster.png'
 import IceWork from '../assets/images/webp/ice_work.png'
 const Blasting = () => {
   return (
-   <section className=' position-relative bg_orange'>
+   <section className=' position-relative bg_orange' id='aboutus'>
     <div className=" d-flex">
         <img src={BlastTopCloud} alt="BlastTopCloud" className=' w-100' />
     </div>
